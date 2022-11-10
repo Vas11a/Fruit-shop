@@ -1,0 +1,292 @@
+@media screen and (max-width: 960px) {
+    .header-main{
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+
+    .header-text , .heals-text{
+        width: 100%;
+        align-items: center;
+    }
+
+    .head-title{
+        text-align: center;
+        font-size: 80px;
+    }
+
+        
+    .heals-title{
+        text-align: center;
+        line-height: 90%;
+    }
+
+    .head-sub-title , .heals-subtitle{
+        text-align: center;
+    }
+
+    .header-img , .heals-img{
+        width: 80%;
+    }
+
+    .heals{
+        flex-direction: column-reverse;
+    }
+    
+    .heals-block{
+        text-align: center;
+    }
+
+    .shop-container{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .shop-item2{
+        border: 0;
+    }
+
+    .shop-item3{
+        border-right: 0;
+    }
+
+    .shop-item4{
+        border-right: 1px solid grey;
+        border-left: 0;
+    }
+
+    .shop-item6{
+        border: 0;
+        border-bottom: 1px solid grey;
+    }
+
+    .shop-item7{
+        border: 0;
+    }
+
+    .shop-item8{
+        border-right: 1px solid grey;
+    }
+
+    .content-review{
+        width: 95%;
+    }
+}
+
+
+@media screen and (max-width: 750px) {
+    .nav{
+        display: none;
+        padding: 10px;
+        flex-direction: column;
+        position: absolute;
+        background-color: white;
+        top: 0;
+        right: 0;
+        width: 100%;
+        align-items: center;
+        gap: 20px;
+        box-shadow: 5px 5px 5px grey;
+        border: 1px solid grey;
+    }
+
+    .burger-menu{
+        display: block;
+        cursor: pointer;
+    }
+
+    .block-nav{
+        width: 100%;
+        padding: 0 30px;
+    }
+
+    .deliver {
+        flex-direction: column;
+        padding-top: 30px;
+    }
+        
+    .deliver-main {
+        width: 100%;
+        text-align: center;
+     }
+        
+    .deliver-options {
+        width: 100%;
+    }
+
+    .deliver-block{
+        margin-left: 10%;
+    }
+
+    .shop-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .shop-item{
+        border: 0;
+        border: 1px solid grey;
+    }
+
+    .shop-item1 , .shop-item3, .shop-item5 , .shop-item7{
+        border-left:0;
+    }
+
+    .shop-item2 , .shop-item4,.shop-item6 , .shop-item8{
+        border-right: 0;
+    }
+
+    .shop-item1, .shop-item2{
+       border-top:0;
+    }
+
+    .shop-item7 , .shop-item8{
+        border-bottom:0;
+    }
+
+    .content-review{
+        flex-direction: column-reverse;
+        padding: 20px 20px 0 20px ;
+    }
+
+    .img-bloct-review{
+        width: 80%;
+    }
+
+    .text-review{
+        align-items: center;
+    }
+
+    .sub-review , .title-review{
+        text-align: center;
+    }
+
+    .basket-block{
+        flex-direction: column-reverse;
+    }
+    .form-send{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    .header-img {
+        width: 100%;
+    }
+
+    .head-title {
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .header-main{
+        gap: 15px;
+    }
+
+    .button{
+        width: 100px;
+        height: 35px;
+    }
+
+    .block-nav{
+        flex-direction: column;
+    }
+
+    .heals-img{
+        width: 100%;
+    }
+
+    .heals-title{
+        font-size: 30px;
+    }
+
+    .heals{
+        padding-top: 40px;
+    }
+
+    .part-numb{
+        font-size: 30px;
+
+    }
+
+    .deliver-title{
+        font-size: 30px;
+    }
+
+    .deliver{
+        padding-top: 0;
+    }
+    .shoplist{
+        padding-top: 30px;
+    }
+
+    .shop-container {
+        grid-template-columns: repeat(1, 90%);
+        grid-template-rows: repeat(8, 1fr);
+        justify-content: center;
+    }
+
+    .shop-item{
+        border: 0;
+        border-bottom: 1px solid grey;
+    }
+
+    .shop-item:hover{
+        transform: rotate(0);
+    }
+
+    .shop-item8{
+        border-bottom:0;
+    }
+
+    .title-review{
+        font-size: 30px;
+    }
+
+    .form{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .form>input{
+        width: 100%;
+    }
+
+    .content-review{
+        padding-top: 20px;
+        width: 100%;
+    }
+
+    .review{
+        padding-top: 50px;
+    }
+
+    .img-bloct-review{
+        width: 100%;
+    }
+
+    .footer-content{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+        
+    .left-part{
+        align-items: center;
+    }
+    .foot-text{
+        text-align: center;
+    }
+
+    .otherrev-content{
+        padding: 20px 0 20px 0;
+    }
+
+    .otherrev-title{
+        font-size: 25px;
+    }
+
+    .footer{
+        margin-top: 30px;
+    }
+}
