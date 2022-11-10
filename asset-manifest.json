@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Fruit-shop/static/css/main.c6983983.css",
+    "main.js": "/Fruit-shop/static/js/main.02ad8b9a.js",
+    "static/media/inst.png": "/Fruit-shop/static/media/inst.6df49dfa25b5d8c0dc12.png",
+    "static/media/font.ttf": "/Fruit-shop/static/media/font.f2a5c4d40c9384d2cda4.ttf",
+    "static/media/main-picture.png": "/Fruit-shop/static/media/main-picture.c1fa7d82992ec2ca587c.png",
+    "static/media/heals.png": "/Fruit-shop/static/media/heals.c07665828758496b566c.png",
+    "static/media/str.png": "/Fruit-shop/static/media/str.f0fb9a0268887f2c59ac.png",
+    "static/media/burgout.png": "/Fruit-shop/static/media/burgout.49bae570232f24e0be7f.png",
+    "static/media/face.png": "/Fruit-shop/static/media/face.7008f188de5499b14dc7.png",
+    "static/media/logo.png": "/Fruit-shop/static/media/logo.bcf9a7477845adc31d81.png",
+    "static/media/burg.png": "/Fruit-shop/static/media/burg.976b5194516ca86106ce.png",
+    "index.html": "/Fruit-shop/index.html",
+    "main.c6983983.css.map": "/Fruit-shop/static/css/main.c6983983.css.map",
+    "main.02ad8b9a.js.map": "/Fruit-shop/static/js/main.02ad8b9a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6983983.css",
+    "static/js/main.02ad8b9a.js"
+  ]
+}
